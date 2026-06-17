@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador do Mundo 23</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌍 Destinos 23</h1>
+        <p>Descubra pontos turísticos incríveis e preços estimados pelo mundo!</p>
+        
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Digite um país (ex: Brasil, França, Japão)...">
+            <button id="search-btn">Buscar</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="result-section" class="hidden">
+            <div class="card">
+                <h2 id="country-title">País</h2>
+                <h3 id="place-name">Ponto Turístico</h3>
+                <p id="place-description">Descrição do lugar.</p>
+                <div class="price-tag">
+                    <span>Preço Médio Estimado:</span>
+                    <strong id="place-price">R$ 0,00</strong>
+                </div>
+            </div>
+        </section>
+
+        <section id="welcome-message">
+            <p>Digite um país acima para começar a sua viagem virtual! ✈️</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
